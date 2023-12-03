@@ -235,7 +235,7 @@ def calculate_pacing():
 
 # Define default args for pacing DAG
 default_args = {
-    'owner': 'Dymytryo',
+    'owner': 'dymytryo',
     'depends_on_past': False,
     'email_on_failure': True,
     'email_on_success': False,
